@@ -1,0 +1,1 @@
+this folder contains notes on stakeholders feedback
