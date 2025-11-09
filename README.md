@@ -1,4 +1,4 @@
-# Onchain Recurrent Rewards Research & Development
+# Onchain Public Goods Funding Impact Research 
 
 ## 🌟 Project Overview
 
@@ -6,7 +6,7 @@ This repository contains the **research and development** of a project that aims
 
 ### My Goal
 
-I'm exploring **RetroPGF (Retroactive Public Goods Funding)**, a creative funding method that rewards people after they've made valuable contributions. My goal is to enhance this system to be as automated, transparent, cost-effective, and data-driven as possible. This way, other DAOs and projects can begin compensating their open-source contributors more efficiently. Although I recognize that not every impact area can fully adopt these ideas, there's still a lot of room to make the current system better.
+This research initially focused on impact analysis methodologies for **RetroPGF (Retroactive Public Goods Funding)**, but has subsequently expanded to examine comprehensive impact evaluation frameworks across the Web3 ecosystem. The primary objective is to develop methodologically rigorous systems characterized by automation, transparency, cost-effectiveness, and data-driven metrics for quantifying contributions. Such frameworks would enable Decentralized Autonomous Organizations and projects to implement evidence-based compensation mechanisms for open-source contributors. While acknowledging the inherent limitations in quantifying certain impact domains, this work identifies substantial opportunities for enhancing current evaluation methodologies.
 
 ## 🔬 Current Project Infrastructure
 
