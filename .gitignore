@@ -1,2 +1,10 @@
-Analysis_and_studies/optimism_season7/causal_impact_env/*
+
 Analysis_and_studies/optimims_grants_causal_analysis/causal_impact_env/*
+Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/causal_impact_env/*
+Analysis_and_studies/optimims_grants_causal_analysis/*
+Analysis_and_studies/2_monopolis_or_now_activity/*
+repo_classifier/notes/*
+repo_classifier/project files and notes/*
+*.parquet
+*.env
+*.csv
