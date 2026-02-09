@@ -223,7 +223,7 @@ To check stability over time, I computed rolling correlations (7-day, 30-day, 60
 
 ## Causal Impact Analysis Results
 
-![Uniswap Log-Transformed Causal Impact Analysis](analysis_ntbk_media/uniswap_log_transformed_causal_impact_fit.png)
+![Uniswap Log-Transformed Causal Impact Analysis](analysis_ntbk_media/uniswap_log_transf_causal_impact_fit.png)
 
 *Figure: Causal impact analysis showing observed vs predicted Uniswap transaction counts (log-transformed) with pointwise and cumulative effects*
 
@@ -278,7 +278,7 @@ Given potential non-normality in the data, multiple transformations were tested 
 Box-Cox transformation applies a power transformation to stabilize variance and make the data more normally distributed. Maximum likelihood estimation (MLE) was used to find optimal λ (lambda) parameters.
 
 
-![Box-Cox Transformation Distribution of Variables](analysis_ntbk_media/uniswap_boxcox_transformation_distribution_of_variables.png)
+![Box-Cox Transformation Distribution of Variables](analysis_ntbk_media/uniswap_boxcox_transf_dist_of_variables.png)
 
 *Figure: Original distributions (left) and Box-Cox transformed distributions (right) for key variables*
 
