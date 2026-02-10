@@ -278,7 +278,7 @@ Given potential non-normality in the data, multiple transformations were tested 
 Box-Cox transformation applies a power transformation to stabilize variance and make the data more normally distributed. Maximum likelihood estimation (MLE) was used to find optimal λ (lambda) parameters.
 
 
-![Box-Cox Transformation Distribution of Variables](analysis_ntbk_media/uniswap_boxcox_transf_dist_of_variables.png)
+![Box-Cox Transformation Distribution of Variables](analysis_ntbk_media/uniswap_boxcox_transf_dist_of_variab.png)
 
 *Figure: Original distributions (left) and Box-Cox transformed distributions (right) for key variables*
 
