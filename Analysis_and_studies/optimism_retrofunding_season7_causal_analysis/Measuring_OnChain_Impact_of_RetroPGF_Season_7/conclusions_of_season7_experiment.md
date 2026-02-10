@@ -21,7 +21,7 @@ The next sections are implementation-focused “points of attention.” I’m hi
 
 ### 1) Noisy data (and why transformations were necessary)
 
-If you look at the notebook #TODO and the first article, you’ll notice I ended up using **two transformations** on the transaction time series to reduce volatility and make modeling feasible:
+If you look at the [notebook](https://github.com/stefi-says/onchain_public_goods_funding_impact_research/blob/fa002d1c6af278a3d636f7993d4b74b3289cbfc6/Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/notebooks/analysis.ipynb) and at the [analysis article](https://github.com/stefi-says/onchain_public_goods_funding_impact_research/blob/fa002d1c6af278a3d636f7993d4b74b3289cbfc6/Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/Measuring_OnChain_Impact_of_RetroPGF_Season_7/Measuring_OnChain_Impact_of_RetroPGF_Season_7.md) , you’ll notice I ended up using **two transformations** on the transaction time series to reduce volatility and make modeling feasible:
 
 - **Log transform**: helps when activity grows roughly exponentially over long periods (it compresses large values).
 - **Box–Cox transform**: a power transform \(y^{(\lambda)}\) used to **stabilize variance** and make errors closer to **Gaussian**. Useful because BSTS/CausalImpact is typically fit with an observation model that assumes **approximately normal, homoskedastic noise**.
@@ -80,6 +80,18 @@ Collecting this kind of information tends to unlock the questions grant managers
 
 Thanks for reading. I’m sharing this work to contribute to the broader ecosystem’s ability to measure impact more rigorously, learn faster from funding experiments, and make better allocation decisions over time. If you’re working on grant evaluation, causal inference, or RetroPGF impact measurement, I’d love to compare notes—reach out on Telegram: `@hi_stefi`.
 
+---
+
+## References
+
+1. Google. “TensorFlow Probability CausalImpact.” `https://github.com/google/tfp-causalimpact`
+2. Open Source Observer (OSO). `https://www.opensource.observer/`
+3. Optimism RetroPGF. `https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-onchain-builders-impact/10163`
+4. Toward Recurrent and Concurrent Grants Rounds in Web3. `https://mirror.xyz/stefipereira.eth/SNXPcTKTO88BGgctU_eJw5_N_q6Tw23q4ed1zGBdCHo`
+
+## License
+
+This work is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — feel free to build upon it with attribution.
 
 
 
