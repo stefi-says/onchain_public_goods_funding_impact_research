@@ -30,6 +30,10 @@ In plain language: without variance stabilization, a few “spike” days can do
 
 Even with these transforms, the Box–Cox–transformed series were still not close to normal (skew / heavy tails), which suggests the model’s observation-noise assumptions are still a mismatch. In practice, that can inflate the estimated “noise” and widen credible intervals—so a real but modest treatment effect can be hard to detect. For any future application of this technique, this assumption mismatch should be revisited and validated to ensure trustworthy inference.
 
+![Base transactions after log and boxcox transformation ](analysis_ntbk_media/eg_base_boxcox_transf_dist.png)
+
+*Figure: Base transactions after log and boxcox transformation used to compose the counterfactual series* 
+
 ### 2) Model mismatch: “single intervention” vs how grants actually work
 For this experiment I used TensorFlow Probability’s [`tfp-causalimpact`](https://pypi.org/project/tfp-causalimpact/) (a Bayesian Structural Time Series / BSTS approach). In practice, that workflow is built around **one intervention date**: you define a pre-period, define a post-period, and ask “did something change after this point?”
 
